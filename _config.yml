@@ -7,7 +7,7 @@ logo: # filename of a logo image that has been placed into your images directory
 # Enter the following platform usernames if you would like for them to appear on your site.
 owner:
   name: Sebastian Pujalte
-  avatar: bio-photo.JPG
+  avatar: bio-photo.jpg
   bio: "Mathematician exploring computational neuroscience."
   email: #emailaddress
   # Do not include the @ symbol in your Twitter username
