@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
-locale: en_US
-logo: # filename of a logo image that has been placed into your images directory
+title: Sebastian Pujalte Personal Website
+locale: en_MX
+#logo: # filename of a logo image that has been placed into your images directory
 
 # Enter the following platform usernames if you would like for them to appear on your site.
 owner:
@@ -11,9 +11,11 @@ owner:
   bio: "Mathematician exploring computational neuroscience."
   email: #emailaddress
   # Do not include the @ symbol in your Twitter username
-  twitter: rumbacarumba
-  linkedin: pujaltes
   github: pujaltes
+  linkedin: pujaltes
+  twitter: rumbacarumba
+
+
   #orcid: # ID Number (ex. 0000-0000-0000-0000)
   #researchgate: #username
   #mendeley: #username
