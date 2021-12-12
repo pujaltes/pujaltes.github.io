@@ -10,7 +10,7 @@ category: blog
 
 This is a website template created with Jekyll that is designed to be hosted on Github pages. Jekyll is a static website generator, and Github pages provides a free and easy way to host websites created using Jekyll.
 
-<iframe src="https://interactive-firing-rate.herokuapp.com" width=800 height="400px">
+<iframe src="https://interactive-firing-rate.herokuapp.com" width="800px" height="400px">
 </iframe>
 
 
