@@ -5,7 +5,7 @@ menutitle: Home
 menuorder: 1
 ---
 
-Hello, welcome to my website! I studien math and now I study the brain. Go to my blog section to check out some cool interactive plots I made for my students.
+Hello, welcome to my website! I studied math and now I study the brain. Go to my blog section to check out some cool interactive plots I made for my students.
 
 ## Current Interests and Projects:
 
