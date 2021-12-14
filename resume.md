@@ -5,18 +5,15 @@ menutitle: Resume
 ---
 ## Currently
 
-Current Position Description
+Research Assistant at Institute of Cellular Physiology-UNAM\
+Teaching Assistant at Faculty of Medicine-UNAM
 
 ## Education
 
-`1990 - 1994`
-__University Name__
-Degree Awarded
-
-`1995 - 1997`
-__University Name__
-Degree Awarded 
-
+`2016 - 2021`
+__National Autonomous University of Mexico (UNAM)__\
+Bachelor of Science in Mathematics
+{% comment %}
 ## Awards
 
 `2012`
@@ -64,9 +61,9 @@ __Current Job Title__, Current Employer
 - Task
 
 
-
+{% endcomment %}
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated: Dec 2021 -->
 
 

@@ -1,9 +1,0 @@
-I"z<p>Interactively test different binning when estimating firing rate of a neuron. There are several neurons to choose from in the dropdown menu, each belonging to one of two experiments. I currently host my apps for free on Huroku so they may take some time to initially load. Please be patient.</p>
-
-<iframe src="https://interactive-firing-rate.herokuapp.com" width="1200px" height="430px" style="border:0px #ffffff none;" name="interactive_fr" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" allowfullscreen="">
-</iframe>
-
-<h2 id="firing-rate">Firing Rate</h2>
-<p>A more detailed description will come soon.</p>
-
-:ET
