@@ -1,0 +1,24 @@
+<div class="pub-entry">
+  {% assign paper_url = entry.pdf | default: entry.arxiv | prepend: "https://arxiv.org/abs/" %}
+  {% if entry.pdf %}{% assign paper_url = entry.pdf %}{% elsif entry.arxiv %}{% assign paper_url = entry.arxiv | prepend: "https://arxiv.org/abs/" %}{% endif %}
+  <a href="{{ paper_url }}" target="_blank" class="pub-thumb-link">
+    {% if entry.preview %}
+    <img class="pub-thumb" src="{{ '/assets/img/pubs/' | append: entry.preview | relative_url }}" alt="{{ entry.title }}"{% if entry.imgalign %} style="object-position: {{ entry.imgalign }};"{% endif %}>
+    {% else %}
+    <img class="pub-thumb" src="{{ '/assets/img/pubs/default.png' | relative_url }}" alt="Publication">
+    {% endif %}
+  </a>
+  <div class="pub-content">
+    <div class="pub-title"><a href="{{ paper_url }}" target="_blank">{{ entry.title }}</a></div>
+    <div class="pub-authors">{{ entry.author }}</div>
+    <div class="pub-venue">{{ entry.journal }}{{ entry.booktitle }}{% if entry.year %}, {{ entry.year }}{% endif %}</div>
+    {% if entry.pdf or entry.arxiv or entry.code or entry.website %}
+    <div class="pub-links">
+      {% if entry.pdf %}<a href="{{ entry.pdf }}" target="_blank">Paper</a>{% endif %}
+      {% if entry.arxiv %}<a href="https://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>{% endif %}
+      {% if entry.code %}<a href="{{ entry.code }}" target="_blank">Code</a>{% endif %}
+      {% if entry.website %}<a href="{{ entry.website }}" target="_blank">Website</a>{% endif %}
+    </div>
+    {% endif %}
+  </div>
+</div>

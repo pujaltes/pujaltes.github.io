@@ -1,0 +1,65 @@
+# Site settings
+title: Sebastian Pujalte
+description: PhD Researcher | Computational Biology | Drug Discovery
+url: https://pujaltes.github.io
+baseurl: ""
+
+# Author info
+author:
+  name: Sebastian Pujalte Ojeda
+  email: sp2120@cam.ac.uk
+  github: pujaltes
+  linkedin: pujaltes
+  scholar: 0tOYZ10AAAAJ
+  twitter: sebPujalte
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-scholar
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Include pages directory
+include:
+  - _pages
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - vendor
+
+# Jekyll Scholar settings
+scholar:
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  query: "@*"
+  sort_by: year
+  order: descending
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Sass
+sass:
+  style: compressed
